@@ -1,0 +1,124 @@
+
+html {
+      scroll-behavior: smooth;
+    }
+ body {
+   font-family: "Inter", sans-serif;
+   background: linear-gradient(135deg, #000000, #1a1a1a, #242424); color:white;
+}
+    .navbar-brand{
+  
+     color: #00eaff !important;
+     transition: 0.3s ease-in-out;
+  
+}
+.navbar-brand:hover{
+      color: #fff !important;
+  text-shadow: 0 0 6px #00ffff, 0 0 10px #00eaff;
+   transform: scale(1.12) 
+    
+}
+    .nav-link {
+     color: #fff !important;
+      padding-bottom: 6px;
+      transition: 0.3s ease-in-out;
+      transform: scale(1.12)
+      
+    }
+   
+.navbar-toggler:hover{
+    color:#00eaff ;
+     
+}
+  .nav-link:hover {
+  color: #00eaff !important;
+ text-shadow: 0 0 13px #00eaff;
+ transform: scale(1.15);
+}
+   .social-icon {
+      font-size: 1.4rem;
+      color: #fff;
+      transition: 0.3s ease;
+    }
+
+    .social-icon:hover {
+      color: #00eaff;
+      text-shadow: 0 0 13px #00eaff;
+      transform: scale(1.15);
+    }
+.resume:hover{
+    box-shadow: 0 0 15px #00eaff;
+}
+   .role{
+  background: linear-gradient(90deg, #00eaff, #5efcff);
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
+
+   .skill {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.3s ease;
+  backdrop-filter: blur(6px);
+}
+
+.skill:hover {
+  transform: translateY(-8px);
+  border-color: #00eaff;
+ box-shadow: 0 0 18px rgba(0, 234, 255, 0.3);
+}
+ p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.3px; 
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif !important;
+  letter-spacing: 1px;
+  color:#1AFFff
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease;
+   border-color: #00eaff;
+  box-shadow: 0 0 18px rgba(0, 234, 255, 0.3);
+}
+
+.scroll-img {
+  height: 160px;
+  overflow-y: auto;
+}
+.contact-icon {
+  width: 48px;
+  height: 48px;
+  transition: 0.3s ease-in-out;
+  border-radius: 12px;
+}
+.contact-icon:hover {
+  transform: translateY(-4px);
+}
+.contact-icon.gmail:hover {
+  box-shadow: 0 0 12px #ea4335;
+  transform: translateY(-4px);
+}
+.contact-icon.github:hover {
+  box-shadow: 0 0 12px #ffffff;
+  transform: translateY(-4px);
+}
+.contact-icon.linkedin:hover {
+  box-shadow: 0 0 12px #0A66C2;
+  transform: translateY(-4px);
+}
+.contact-icon.instagram:hover {
+  box-shadow: 0 0 12px #E1306C;
+  transform: translateY(-4px);
+}
+.contact-icon.whatsapp:hover {
+  box-shadow: 0 0 12px #25D366;
+  transform: translateY(-4px);
+}
+
+
+
